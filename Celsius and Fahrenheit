@@ -1,0 +1,11 @@
+a = float(input("Your temperature = "))
+b = str(input("Celsius or Fahrenheit? *put C or F "))
+if b == "C":
+    d = a*1.8+32 
+elif b == "F":
+    d = (a-32)/1.8
+else: 
+    print("Insert C of F")
+    quit()
+
+print("Converted temperature = ", d)
