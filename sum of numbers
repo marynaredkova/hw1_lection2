@@ -1,0 +1,5 @@
+a = float(input("First number = "))
+b = float(input("Second number = "))
+ 
+sum = a + b
+print("Sum = {2}" .format(a, b, sum))
